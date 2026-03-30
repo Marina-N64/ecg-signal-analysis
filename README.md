@@ -34,7 +34,7 @@ It demonstrates how biomedical signals can be analysed, filtered, and interprete
 ## Dataset
 Due to file size limitations, the dataset is not included in this repository.
 
-Download from Kggle:
+Download from Kaggle:
 https://www.kaggle.com/datasets/shayanfazeli/heartbeat
 
 Place "mitbih_train.csv" in the same folder as the Python notebook.
