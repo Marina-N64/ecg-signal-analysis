@@ -1,4 +1,4 @@
-# ecg-signal-analysis
+# ECG-Signal-Analysis
 ## Overview
 This project explores electrocardiogram (ECG) signal processing using multiple programming enviroments: Python, C and MATLAB.
 
@@ -42,15 +42,15 @@ Place "mitbih_train.csv" in the same folder as the Python notebook.
 ---
 
 ## Mathematical Model
-
 $$
-HR = \frac{N_\text{peaks}}}{T} \times 60
+HR = \frac{N_{\text{peaks}}}{T} \times 60
 $$
 
 where:
+
 - HR = heart rate (BPM)
-- \(N_{\text{peaks}}\) = number of detected peaks
-- \(T\) = signal duration (seconds)
+- N_peaks = number of detected peaks
+- T = signal duration (seconds)
 
 ---
 
@@ -69,6 +69,8 @@ where:
 ---
 ## Author
 Marina Ntoko
+
+## Course
 Bachelor of Physics
 
 ## Notes
