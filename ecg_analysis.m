@@ -1,5 +1,5 @@
 %% =========================================
-% ECG Signal Analysis (MATLAB - Advanced)
+% ECG Signal Analysis
 % Name: Marina Ntoko
 % Course: Bachelor of Physics
 % =========================================
