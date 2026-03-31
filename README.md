@@ -1,9 +1,17 @@
 # ECG-Signal-Analysis
 ## Overview
-This project explores electrocardiogram (ECG) signal processing using multiple programming enviroments: Python, C and MATLAB.
+This project explores electrocardiogram (ECG) signals to detect heart rate using signal processing techniques. The implementation is carried out across multiple programming enviroments to demonstrate versatility and computational understanding.
 
-It demonstrates how biomedical signals can be analysed, filtered, and interpreted using both high-level and low-level approaches.
+The project uses real ECG data from the MIT-BIH Arrhythmia Dataset and applies filtering and peak detection to estimate heart rate.
 
+---
+
+### Objectives
+- Process real ECG data
+- Remove noise from signals
+- Detect R-peaks (heartbeats)
+- Compare implementations across Python, MATLAB, and C
+  
 ---
 
 ## Project Components
@@ -32,12 +40,26 @@ It demonstrates how biomedical signals can be analysed, filtered, and interprete
 ---
 
 ## Dataset
+The ECG dataset used in this project is the MIT-BIH Arrhythmia Dataset.
+
 Due to file size limitations, the dataset is not included in this repository.
 
-Download from Kaggle:
+### How to Run
+1. Download from Kaggle:
+   
 https://www.kaggle.com/datasets/shayanfazeli/heartbeat
 
-Place "mitbih_train.csv" in the same folder as the Python notebook.
+2. Place the file in a local "data/" folder:
+
+project/ |----data/ ¬ mitbih_train.csv
+
+3. Run the scripts:
+- Python:
+  
+  data = pd.read_csv('../data/mitbih_train.csv')
+- Matlab:
+  
+  data = readmatrix('../data/mitbih_train.csv');
 
 ---
 
@@ -70,8 +92,13 @@ where:
 ## Author
 Marina Ntoko
 
-## Course
-Bachelor of Physics
+Bachelor of Physics Student
+
+## Data Source
+MIT-BIH Arrhythmia Dataset (via PhysioNet / Kaggle)
+
+## License
+This project is licensed under the MIT License
 
 ## Notes
 This project demonstrates the application of physics and signal processing techniques to biomedical data, relevant to medical device development
